@@ -22,3 +22,13 @@
 - EC2 Backend: http://54.221.51.72:5000
 
 ## Architecture
+
+User Browser
+↓
+Amazon S3 (UI)
+↓
+Amazon EC2 (Flask Backend)
+↓
+Amazon Bedrock (Nova Lite AI)
+↓
+AI Response back to User
