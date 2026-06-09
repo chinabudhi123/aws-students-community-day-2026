@@ -1,4 +1,4 @@
-cat > README.md << 'EOF'
+
 # The Infrastructure Behind Every AI You Love 🚀
 ### AWS Students Community Day 2026
 **Speaker:** Satyajit Samantaray — Principal Cloud Architect at Searce
