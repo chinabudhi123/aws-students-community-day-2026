@@ -32,3 +32,30 @@ Amazon EC2 (Flask Backend)
 Amazon Bedrock (Nova Lite AI)
 ↓
 AI Response back to User
+
+## How to run locally
+
+### Prerequisites
+```bash
+python3 -m venv aws-demo
+source aws-demo/bin/activate
+pip install flask boto3 flask-cors
+aws configure
+```
+
+### Run Flask locally
+```bash
+cd step2-ec2
+python3 app.py
+```
+
+### Run Bedrock demo
+```bash
+cd step4-bedrock
+python3 bedrock_demo.py
+```
+
+## Connect with me
+- LinkedIn: [https://www.linkedin.com/in/satyajit-samantray-b30a7075/]
+- GitHub: [https://github.com/chinabudhi123/aws-students-community-day-2026]
+
